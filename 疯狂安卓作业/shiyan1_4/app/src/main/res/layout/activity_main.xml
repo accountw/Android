@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:andorid="http://schemas.android.com/apk/res/android"
+    andorid:layout_width="match_parent"
+    andorid:layout_height="match_parent"
+    andorid:stretchColumns="1">
+    <TableRow>
+        <TextView
+            andorid:layout_width="match_parent"
+            andorid:layout_height="wrap_content"
+            andorid:text="用户名"
+            andorid:textSize="16sp"/>
+        <EditText
+            andorid:layout_width="match_parent"
+            andorid:layout_height="wrap_content"
+            andorid:hint="请填写登陆账号"
+            andorid:selectAllOnFocus="true"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            andorid:layout_width="match_parent"
+            andorid:layout_height="wrap_content"
+            andorid:text="密码:"
+            andorid:textSize="16sp"/>
+        <EditText
+            andorid:layout_width="match_parent"
+            andorid:layout_height="wrap_content"
+            andorid:inputType="numberPassword"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            andorid:layout_width="match_parent"
+            andorid:layout_height="wrap_content"
+            andorid:text="年龄:"
+            andorid:textSize="16sp" />
+        <EditText
+            andorid:layout_width="match_parent"
+            andorid:layout_height="wrap_content"
+            andorid:inputType="number"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            andorid:layout_width="match_parent"
+            andorid:layout_height="wrap_content"
+            andorid:text="生日:"
+            andorid:textSize="16sp" />
+        <EditText
+            andorid:layout_width="match_parent"
+            andorid:layout_height="wrap_content"
+            andorid:inputType="date"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            andorid:layout_width="match_parent"
+            andorid:layout_height="wrap_content"
+            andorid:text="电话号码:"
+            andorid:textSize="16sp" />
+        <EditText
+            andorid:layout_width="match_parent"
+            andorid:layout_height="wrap_content"
+            andorid:hint="请填写你的电话号码"
+            andorid:inputType="phone"/>
+    </TableRow>
+    <Button
+        andorid:layout_width="match_parent"
+        andorid:layout_height="wrap_content"
+        andorid:text="注册"/>
+</TableLayout>
